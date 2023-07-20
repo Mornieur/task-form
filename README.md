@@ -14,7 +14,7 @@ O projeto Task Form é uma aplicação web que permite aos usuários criarem e g
 ## Tecnologias Utilizadas
 
 - HTML5, CSS3 e JavaScript para a estrutura, estilo e interatividade.
-- Css para a criação de um layout responsivo.
+- Styled-components para a criação de um layout responsivo.
 - React.js como framework front-end para facilitar a manipulação do DOM.
 - JSON Server para simular uma API de backend e persistência dos dados.
 
