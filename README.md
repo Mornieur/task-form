@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+# Task Form Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+O projeto Task Form é uma aplicação web que permite aos usuários criarem e gerenciarem suas tarefas de forma simples e eficiente. A ideia surgiu da necessidade de organizar melhor minhas atividades diárias e, ao mesmo tempo, aprimorar minhas habilidades em desenvolvimento web.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- Criação, edição e exclusão de tarefas.
+- Marcação de tarefas como concluídas.
+- Filtragem e busca de tarefas.
+- Organização das tarefas por categorias.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tecnologias Utilizadas
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- HTML5, CSS3 e JavaScript para a estrutura, estilo e interatividade.
+- Css para a criação de um layout responsivo.
+- React.js como framework front-end para facilitar a manipulação do DOM.
+- JSON Server para simular uma API de backend e persistência dos dados.
 
-### `npm test`
+## Inicialização
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para iniciar o projeto em sua máquina local, siga os passos abaixo:
 
-### `npm run build`
+1. Clone este repositório usando o comando:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone https://github.com/Mornieur/task-form.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Acesse o diretório do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+cd task-form
+```
 
-### `npm run eject`
+3. Instale as dependências necessárias:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Inicie o servidor JSON:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm run server
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+5. Em seguida, abra o arquivo `index.html` no seu navegador para utilizar o Task Form.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Implementações Futuras
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+O projeto Task Form ainda está em desenvolvimento, e algumas melhorias e recursos adicionais serão implementados nas próximas etapas, incluindo:
+
+- Adição de autenticação de usuário.
+- Integração com banco de dados para armazenar tarefas permanentemente.
+- Melhorias no design e na experiência do usuário.
+- Funcionalidade de compartilhamento de tarefas com outros usuários.
