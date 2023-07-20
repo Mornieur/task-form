@@ -8,8 +8,6 @@ O projeto Task Form é uma aplicação web que permite aos usuários criarem e g
 
 - Criação, edição e exclusão de tarefas.
 - Marcação de tarefas como concluídas.
-- Filtragem e busca de tarefas.
-- Organização das tarefas por categorias.
 
 ## Tecnologias Utilizadas
 
